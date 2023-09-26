@@ -113,3 +113,5 @@ if st.button("Predict house value"):
     # Realiza la predicción y muestra el resultado en la interfaz
     result = predicts(data)
     st.text(result[0])
+
+st.write("<p style='text-align: center;'>By Johann Lozano Enriquez  a338834</p>", unsafe_allow_html=True)
