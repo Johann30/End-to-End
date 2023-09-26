@@ -77,7 +77,7 @@ class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
             return np.c_[X, rooms_per_household, population_per_household]
 
 # Configura la interfaz de usuario de Streamlit
-st.title("Prediction Model")
+st.title("PREDICTION MODEL")
 
 # Entrada de usuario para diferentes características de viviendas
 longitude = st.number_input("Longitude", max_value=0.0)
