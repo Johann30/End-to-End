@@ -107,7 +107,7 @@ if st.button("Predict house value"):
         'population': [population],
         'households': [households],
         'median_income': [income],
-        'ocean_proximity1': [ocean_proximity]
+        'ocean_proximity': [ocean_proximity]
     })
     
     # Realiza la predicción y muestra el resultado en la interfaz
